@@ -23,7 +23,8 @@ function App() {
       document.title = "TextUtils (Dark Mode)";
       setTimeout(() => {
         document.title = "TextUtils";
-      }, 1500);
+      }, 1500)
+        ;
     } else {
       setMode(`light`);
       document.body.style.setProperty("background-color", "white", "important");
