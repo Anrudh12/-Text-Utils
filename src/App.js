@@ -6,8 +6,10 @@ import About from "./Components/About.js";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+
   //State for Light and Dark Mode
+function App() {
+
   const [Mode, setMode] = useState(`light`);
   const onModef = () => {
     if (Mode === `light`) {
